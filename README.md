@@ -46,6 +46,11 @@ Webpack has been initialised to handle:
 
 1. `git checkout -b developer_name/feature_description`
 2. Create new files/modify code
+
+### Creating pull requests
+
+1. Create a new branch
+2. Create new files/modify code
 3. `git add .`
 4. `git commit -a -m "description of changes"`
 5. `git push` or `git push origin name_of_branch`
