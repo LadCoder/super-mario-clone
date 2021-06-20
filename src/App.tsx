@@ -1,5 +1,8 @@
 import * as React from 'react'
+import { config } from './types/config'
 
-type AppProps = { num: number }
+export function App() {
+    const game = new Phaser.Game(config)
 
-export const App = ({ num }: AppProps) => <h1>Hello world React! Num: {num}</h1>
+    return <h1>Hello world React! </h1>
+}
